@@ -22,7 +22,8 @@ git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
 echo '添加jerrykuku的argon-mod主题'
 rm -rf package/lean/luci-theme-argon  
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/lean/luci-theme-argon
+# git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/lean/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-theme-argon package/lean/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
 echo '=========Add argon-mod OK!========='
 
